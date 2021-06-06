@@ -4,7 +4,8 @@
 
 Grafana, InfluxDB and a Speedtest.net CLI test<br>
 Used PimpMyLife setup here - https://pimylifeup.com/raspberry-pi-internet-speed-monitor/<br>
-I am not using the uplink to GDrive.<br>
+If you didn't use the above make sure you setup InfluxDB's database NAME, LOGIN, and PASSWAORD are correct when entering the data into Grafana.<br>
+I'm also not using the uplink to GDrive.<br>
 
 Plans for this project was to evaluate the quality of service of my ISP (T-Mobile Home Internet), with periodical tests along the day.<br>
 
