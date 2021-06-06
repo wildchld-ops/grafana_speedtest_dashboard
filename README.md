@@ -2,12 +2,12 @@
 
 ![Speedtest_dashboard](https://user-images.githubusercontent.com/5100075/120923789-9b1d2900-c68d-11eb-9c85-1fc56b2c77de.png)
 
-Grafana, InfluxDB and a Speedtest.net CLI test<br>
+# Grafana, InfluxDB and a Speedtest.net CLI test<br>
 Used PimpMyLife setup here - https://pimylifeup.com/raspberry-pi-internet-speed-monitor/<br>
 If you didn't use the above make sure you setup InfluxDB's database NAME, LOGIN, and PASSWAORD are correct when entering the data into Grafana.<br>
 I'm also not using the uplink to GDrive.<br>
 
-Plans for this project was to evaluate the quality of service of my ISP (T-Mobile Home Internet), with periodical tests along the day.<br>
+# Plans for this project was to evaluate the quality of service of my ISP (T-Mobile Home Internet).<br>
 
 How you can set up your Raspberry Pi to monitor your internet connection and save the data to view in Grafana.<br>
 If you’re interested in monitoring how your download speed, upload speed, and ping are affected over time.<br>
@@ -16,8 +16,9 @@ It's a small Python script that interacts with a program called Speedtest CLI fr
 Speedtest CLI is what our internet speed monitor will use to monitor the internet connection.<br>
 This program works by polling the popular speedtest.net service to get your ping, download speed, and upload speed.<br>
 
-Updating Speedtest:<br>
+# Updating Speedtest:<br>
 You should be able to update the speedtest-cli python package by running the following command.<br>
+
 <code>pip install speedtest-cli --upgrade</code><br>
 
 IMPORTANT NOTE: If you use this, it will download a decently-large amount of data through your Internet connection on a daily basis. Don't use it, or tune the internet-monitoring setup to not run the speedtests as often, if you have a metered connection!<br>
