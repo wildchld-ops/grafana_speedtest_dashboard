@@ -18,5 +18,8 @@ It's a small Python script that interacts with a program called Speedtest CLI fr
 Speedtest CLI is what our internet speed monitor will use to monitor the internet connection.<br>
 This program works by polling the popular speedtest.net service to get your ping, download speed, and upload speed.<br>
 
+Updating Speedtest:<br>
+You should be able to update the speedtest-cli python package by running the following command.<br>
+<code>pip install speedtest-cli --upgrade</code><br>
 
 IMPORTANT NOTE: If you use this, it will download a decently-large amount of data through your Internet connection on a daily basis. Don't use it, or tune the internet-monitoring setup to not run the speedtests as often, if you have a metered connection!<br>
